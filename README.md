@@ -1,14 +1,14 @@
-\# Análise de Dados e Modelagem Preditiva
+\##Análise de Dados e Modelagem Preditiva
 
 
 
-\## Descrição
+##Descrição
 
-Projeto de análise de dados e desenvolvimento de modelo preditivo.
+##Projeto de análise de dados e desenvolvimento de modelo preditivo.
 
 
 
-\## Instalação
+##Instalação
 
 
 
@@ -16,9 +16,14 @@ Projeto de análise de dados e desenvolvimento de modelo preditivo.
 
 ```bash
 
-git clone https://github.com/seu-usuario/analise\_dados.git
+git clone https://github.com/seu-usuario/analise_dados_imdb.git
 
-cd analise\_dados
+cd analise_dados_imdb
 
 
 pip install -r requirements.txt
+
+
+```
+
+##Todas as perguntas estão no relatorios
