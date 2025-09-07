@@ -26,4 +26,4 @@ pip install -r requirements.txt
 
 ```
 
-##Todas as perguntas estão no relatorios
+##Todas as perguntas estão nos reports
