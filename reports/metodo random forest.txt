@@ -1,0 +1,15 @@
+A estimativa do voto no IMDB é tipo Achar e Medir, pois a gente tenta adivinhar um valor que segue sempre (o tal voto IMDB).
+
+Pra fazer isso, pegamos estas coisas e jeitos de mexer:
+
+Coisas de número: 'Ano_do_Lançamento', 'Duração', 'Número_de_Votos', 'Pontuação_Meta' e 'Bilheteria'. Vimos se eram números mesmo e tapamos os buracos com o meio dos valores pra não sumir com a info.
+Coisas de rótulo: 'Certificado', 'Gênero', 'Diretor', 'Ator1', 'Ator2', 'Ator3' e 'Ator4'. Transformamos em códigos únicos. Isso faz colunas novas de "sim ou não" pra cada tipo, pro programa entender. Jogamos fora o primeiro tipo pra não dar confusão.
+Coisas de texto: 'Sinopse' e 'Título_da_Série'. Aqui, tiramos essas colunas pra ser mais fácil. Mas dá pra usar a 'Sinopse' com truques de texto depois.
+Com tudo isso e querendo adivinhar um número, o Random Forest Regressor foi o escolhido.
+
+Lado bom do Random Forest Regressor: É forte, entende as coisas não tão retas e a mistura das coisas, não precisa arrumar os números e costuma ir bem.
+Lado ruim do Random Forest Regressor: Gasta energia do computador e não dá pra entender tão fácil quanto os mais simples.
+Pra ver se o modelo manda bem, olhamos o Erro Quadrático Médio (RMSE) e o R² (O Quanto Explica).
+
+O RMSE mostra o erro normal da adivinhação na mesma medida do voto IMDB.
+O R² fala o tanto do voto IMDB que o modelo explica. Juntando os dois, a gente vê bem como o modelo de adivinhar se sai.

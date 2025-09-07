@@ -1,0 +1,1 @@
+Com base na análise, um filme com alta nota no IMDB, um Meta Score elevado e um grande número de votos seria uma boa recomendação geral, pois indica ampla aceitação e qualidade percebida por um grande público. "The Shawshank Redemption" se encaixa perfeitamente nesses critérios (IMDB Rating 9.3, Meta Score 80, No. of Votes > 2.3M).
